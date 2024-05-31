@@ -144,7 +144,7 @@ nav .right a:hover {
   padding: 10px 19px;
   cursor: pointer;
 }
-.banner .left .buttons-group .portfolio {
+.banner .left .buttons-group .active-btn {
   background-color: var(--primary);
   padding: 16px 33px;
   border-radius: 50px;
@@ -402,4 +402,179 @@ nav .right a:hover {
 }
 .footer-bottom span {
   color: var(--primary);
+}
+
+/* Portfolio Section */
+.portfolio {
+  margin-top: 179px;
+}
+.portfolio .heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.portfolio .subtitle {
+  max-width: 541px;
+  margin: auto;
+  text-align: center;
+}
+
+.portfolio .button-group {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.portfolio .button-group button {
+  margin-right: 17px;
+  background: black;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  border: none;
+  color: white;
+}
+
+.portfolio .button-group .active-btn {
+  background: var(--primary);
+}
+
+.project-group {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+}
+.project-group .project-group-left {
+  width: 40%;
+}
+
+.project-group .project-group-right {
+  width: 60%;
+
+  text-align: left;
+}
+
+.project-group .project-group-right h3 {
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+}
+.project-group .project-group-right .heading {
+  text-align: left;
+  margin-top: 24px;
+}
+
+.project-group .project-group-right .subtitle {
+  text-align: left;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.project-group2 {
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+/* Reach Out section */
+.reach-out {
+  margin-top: 179px;
+  color: white;
+}
+
+.reach-out h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+.reach-out .heading {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.reach-out form {
+  padding: 64px 114px;
+  background: rgba(253, 111, 0, 0.1);
+  margin-top: 48px;
+}
+
+.reach-out form .heading {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.reach-out form .input-group {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.reach-out form .input-group input {
+  width: 50%;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid white;
+  outline: none;
+}
+
+.reach-out form .input-group input::placeholder {
+  color: white;
+}
+
+.reach-out form textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid white;
+  outline: none;
+  margin-top: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  height: 84px;
+}
+
+.reach-out form textarea::placeholder {
+  color: white;
+}
+
+.reach-out form .file {
+  background-color: transparent;
+  margin-top: 16px;
+}
+
+.reach-out form .submit-btn {
+  background-color: var(--primary);
+  font-size: 18px;
+  padding: 16px 40px;
+  margin-top: 40px;
+  display: block;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.reach-out form .file {
+  position: relative;
+}
+
+.reach-out form .file .design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  z-index: -10;
+  cursor: pointer;
+}
+
+.reach-out form .file-action {
+  background: red;
+  cursor: pointer;
+  opacity: 0;
 }
