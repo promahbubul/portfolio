@@ -1,6 +1,6 @@
 # Portfolio Website
- - Live Link: <a href="">http://google.com</a>
- - Github Link: <a href="">http://google.com</a>
+ - Live Link: <a href="">http://promahbubul.surge.sh/</a>
+ - Github Link: <a href="">https://github.com/promahbubul/portfolio/</a>
   
 # Features Website
  - 100% Mobile, Table, Desktop Responsive
