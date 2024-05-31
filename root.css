@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+:root {
+    --primary: #FD6F00;
+    --dark: #1E1E1E;
+    --primary-light: #FD6F00;
+    --yellow: rgb(255, 177, 71, 0.10);
+    --magenta: rgb(255, 108, 99, 0.10);
+    --purple: rgb(184, 106, 223, 0.10);
+}
+
+/* font-family: "Poppins", sans-serif; */
+
+/* font-family: "Rubik", sans-serif; */
+
+.font-poppins {
+    font-family:"Poppins", sans-serif; 
+}
+
+.font-rubik {
+    font-family: "Rubik", sans-serif;
+}
